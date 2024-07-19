@@ -1,0 +1,67 @@
+.gradient-background {
+    background: linear-gradient(300deg, rgba(241,240,232,1), rgba(150,182,197,1));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .gradient-background2 {
+    background: linear-gradient(300deg, #adc4ce, #96b6c5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+#hero {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.font1 {
+    font-family: "Playwrite BE VLG", cursive;
+}
+
+.font2 {
+    font-family: "Barlow", sans-serif;
+}
+
+#hero > div > h1 {
+    font-size: 4.5rem;
+}
+
+#hero > div > div > p, #contact > div > div > p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20pt;
+    padding-top: 1em;
+    letter-spacing: 3px;
+}
+
+#education {
+    background-color: #F1F0E8;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+#projects {
+    background-color: #EEE0C9;
+}
+
+.imghb {
+   height: 250px;
+   width: auto;
+}
